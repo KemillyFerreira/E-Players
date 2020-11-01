@@ -61,13 +61,6 @@ body{
     text-transform: uppercase;  
     padding: 1.8em 1em; 
 }
-menu a:hover{
-    background-color: red;
-}
-#menu-bars{
-    display: none;
-
-}
 @media screen and (max-widht: 1199px){
 
 }

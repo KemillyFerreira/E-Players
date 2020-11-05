@@ -162,32 +162,74 @@ body{
 .about-position img{
     max-width: 31.87em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-widht: 1199px){
+.content-about img{
+    max-width: 31.875em;
+}
+.games-aovivo::after{
+    content:'';
+    border: solid 0.1px;
+    height: 2em;
+    margin-top: 35px;
+    margin-left: 1em;
 
 }
+.games-aovivo, .games-embreve{
+    display: flex;
+    color: #fff;
+    font-size: 1.7em;
+    border-radius: solid 1px;
+}
+.games-embreve{
+    margin-top: -120px;
+    margin-left: 450px;
+}
+.games-aovivo h2, .games-embreve h2{
+    margin-right: 1em;
+}
+.vrs2{
+    margin: 1em;
+}
+.partida{
+    width: 9.5em;
+    display: flex;
+    align-items: center;
+    /*background-color: red;*/
+    justify-content: space-between;
+}
 
-@media screen and (max-widht: 767px){
+.time1, .time2{
+    display: flex;
+    /*background-color: red;*/
+    align-items: center;
+}
+.partida img{
+    width: 1.8em;
+}
+.time1 img{
+    margin-left: 0.5em;
+}
+.time2 img{
+    margin-right: 0.5em;
+}
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-widht: 74.93em){
+/*até 1199px*/
+}
+
+@media screen and (max-widht: 6174.93em){
+/*até 991px*/
 }
 
 @media screen and (max-widht: 575px){
+    /*até 767px*/
 } 

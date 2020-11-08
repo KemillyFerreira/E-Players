@@ -5,8 +5,8 @@
     --background : #000000;
     --red : #c20000;
     --blue : #001f70;
-    --gradient : linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
-
+    --gradient : linear-gradient(180deg, rgba(83, 83, 83, 0.5) 0%, #000000 100%);
+    --cinza : #1E1C21;
     --font :'Titillium Web', sans-serif;
 }
 
@@ -29,7 +29,7 @@ body{
     /**background-color: azure;**/
 }
 .content{
-    width: 80%;
+    width: 95%;
     height: 100%;
     max-width: 75em;
     margin: auto;
@@ -170,37 +170,44 @@ body{
     border: solid 0.1px;
     height: 2em;
     margin-top: 35px;
-    margin-left: 1em;
-
+    margin-left: 2em;
+    
 }
 .games-aovivo, .games-embreve{
     display: flex;
     color: #fff;
-    font-size: 1.7em;
+    font-size: 1.5em;
     border-radius: solid 1px;
 }
+.games-aovivo h2, .games-embreve h2{
+    font-size: 1em;
+    text-transform: uppercase;
+}
 .games-embreve{
-    margin-top: -120px;
-    margin-left: 450px;
+     margin-top: -80px; 
+     margin-left: 450px; 
 }
 .games-aovivo h2, .games-embreve h2{
     margin-right: 1em;
-}
-.vrs2{
-    margin: 1em;
 }
 .partida{
     width: 9.5em;
     display: flex;
     align-items: center;
-    /*background-color: red;*/
+    /* background-color: red;*/
     justify-content: space-between;
+    margin-left: 1em;
 }
-
 .time1, .time2{
     display: flex;
     /*background-color: red;*/
     align-items: center;
+}
+.time2{
+    margin-left: 50px;
+}
+.P{
+    margin-left: 1em;
 }
 .partida img{
     width: 1.8em;
@@ -211,25 +218,92 @@ body{
 .time2 img{
     margin-right: 0.5em;
 }
+.bg-notícias{
+    width: 100%;
+    height: auto;
+    background-color: var(--cinza);
+}
+.notícias{
+    width: 75%;
+    height: 90%;
+    /* background-color: darkgray; */
+}
+.próximos-jogos{
+    width: 23%;
+    height: auto;
+    /* background-color: dimgrey; */
+}
+.news-card{
+    width: 100%;
+    max-width: 14.82em;
+    height: 23.125em;
+    background: var(--gradient);
+    color: #fff;
+    margin-bottom: 1em;
+    box-shadow: 0 0px 10px rgb(83, 83, 83);
+}
+.notícias h2, .próximos-jogos h2{
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+}
+.notícias h3{
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+.notícias p{
+    padding: 0em 0.7em;
+    text-align: justify;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.próximas-partidas{
+    background: var(--gradient);
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
+}
+.game{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
 
+}
+.times{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+.times p{
+    font-size: 1.25em;  
 
-
-
-
-
-
-
-
+}
+.times img{
+    width: 2.5em;
+}
+.times div{
+    display: flex;
+    align-items: center;
+}
+.times>p{
+    margin: 0 1em;
+}
 
 @media screen and (max-widht: 74.93em){
 /*até 1199px*/
 }
 
-@media screen and (max-widht: 6174.93em){
+@media screen and (max-widht: 47.93em){
 /*até 991px*/
 }
 
-@media screen and (max-widht: 575px){
+@media screen and (max-widht: 35.93em){
     /*até 767px*/
 } 

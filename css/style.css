@@ -224,7 +224,7 @@ body{
     background-color: var(--cinza);
 }
 .notícias{
-    width: 75%;
+    width: 70%;
     height: 90%;
     /* background-color: darkgray; */
 }
@@ -265,7 +265,6 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
 .game{
     width: 90%;
@@ -283,7 +282,6 @@ body{
 }
 .times p{
     font-size: 1.25em;  
-
 }
 .times img{
     width: 2.5em;
@@ -295,6 +293,74 @@ body{
 .times>p{
     margin: 0 1em;
 }
+.rodape{
+    padding: 1em 0;
+    color: #fff;
+} 
+.logo-rodape{
+    max-width: 18.75em;
+}
+.links-footer{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+.links h2{
+    font-size: 1.4em;
+    color: #fff;
+}
+.links ul{
+    color: #fff;
+    margin-top: 0.5em;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+}
+.links li{
+    margin-left: 2em;
+}
+.sociais{
+    width: 33%;
+}
+.newslatter h2{
+    font-size: 0.875em;
+    margin-bottom: 0.5em;
+}
+.newslatter form{
+    display: flex;
+}
+.newslatter input[type="email"]{
+    width: 10em;
+    height: 2em;
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+.newslatter input[type"email"]::placeholder{
+    margin-left: 1em;
+    
+}
+.newslatter input[type="submit"]{
+    width: 10em;
+    height: 2.728em;
+    font-size: 1.1em;
+    background-color: #8326EF;
+    color: #fff;
+    text-transform: uppercase;
+}
+.siga-nos{
+    margin-top: 1em;
+}
+
+/*página de cadastro*/
+
+.cadastro{
+    color: #fff;
+    height: 880px;
+}
+
+
+
 
 @media screen and (max-widht: 74.93em){
 /*até 1199px*/
